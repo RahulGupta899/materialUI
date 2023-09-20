@@ -1,5 +1,9 @@
+body{
+  background-color:azure
+}
 .App {
-  text-align: center;
+  margin:5rem;
+  text-align:center
 }
 
 .App-logo {
@@ -28,6 +32,19 @@
   color: #61dafb;
 }
 
+
+.anchor{
+  text-decoration: none;
+  font-weight: 600;
+  font-size:3rem;
+  color:whitesmoke
+}
+
+.option{
+  background-color: #559ade;
+  border-bottom: '0.5px solid white';
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +52,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul.MuiList-root.MuiList-padding.css-h4y409-MuiList-root a {
+  text-decoration: none;
 }
